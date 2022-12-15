@@ -593,8 +593,20 @@ section{
     margin-top:2rem;
     height:3rem;     
 }
+.footer .credit{
+    text-align:center ;
+    margin-top:2rem;
+    padding:1rem;
+    padding-top:2.5rem;
+    font-size:2rem;
+    color:var(--black);
+    border-to:var(--border);
+}
 
+.footer .credit span{
+    color:var(--orange);
 
+}
 
 
 
@@ -643,5 +655,8 @@ section{
     }
     .heading{
         font-size: 2.5rem;
+    }
+    .footer{
+        text-align:center;
     }
 }
